@@ -1,0 +1,13 @@
+agent:
+  max_iterations: 8
+  allow_direct_answers: true
+  debug: false
+model:
+  provider: openai
+  name: gpt-5
+  reasoning_effort: medium
+controller:
+  geocode_injection: true
+  max_domains: 2
+artifacts:
+  root: ./artifacts

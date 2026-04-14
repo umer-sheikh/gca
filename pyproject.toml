@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gulf-climate-agent"
+version = "0.1.0"
+description = "Research-oriented LangChain implementation of the Gulf Climate Agent tool suite"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "OpenAI", email = "support@openai.com"}]
+license = {text = "MIT"}
+dependencies = [
+  "langchain>=0.3.0",
+  "langchain-core>=0.3.0",
+  "langchain-openai>=0.3.0",
+  "openai>=2.0.0",
+  "pydantic>=2.7.0",
+  "pydantic-settings>=2.2.0",
+  "python-dotenv>=1.0.1",
+  "PyYAML>=6.0.1",
+  "requests>=2.32.0",
+  "numpy>=1.26.0",
+  "matplotlib>=3.8.0",
+]
+
+[project.optional-dependencies]
+remote = [
+  "earthengine-api>=1.1.0",
+  "geemap>=0.35.0",
+]
+audio = [
+  "librosa>=0.10.2",
+  "tensorflow>=2.16.0",
+]
+dev = [
+  "pytest>=8.2.0",
+  "pytest-cov>=5.0.0",
+  "ruff>=0.5.0",
+  "mypy>=1.10.0",
+]
+
+[project.scripts]
+gca-agent = "gulf_climate_agent.cli.run:main"
+gca-benchmark = "gulf_climate_agent.cli.benchmark:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+addopts = "-q"
