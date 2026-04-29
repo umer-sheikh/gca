@@ -7,7 +7,7 @@ Muhammad Umer Sheikh, Khawar Shehzad, Salman Khan, Fahad Shahbaz Khan, Muhammad 
 
 - **arXiv:** <https://arxiv.org/abs/2604.12306>
 - **Project Website:** <https://www.gulfclimateagent.com/>
-- **Hugging Face:** <https://huggingface.co/umer-sheikh/gca>
+- **Hugging Face:** <[https://huggingface.co/umer-sheikh/gca](https://huggingface.co/datasets/umer-sheikh/gca-bench)>
 
 ## Main Method
 
