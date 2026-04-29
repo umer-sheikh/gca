@@ -60,7 +60,7 @@ Required for the full stack:
 
 ## Benchmark
 
-- **Hugging Face:** <[https://huggingface.co/umer-sheikh/gca](https://huggingface.co/datasets/umer-sheikh/gca-bench)>
+- **Hugging Face:** [https://huggingface.co/umer-sheikh/gca](https://huggingface.co/datasets/umer-sheikh/gca-bench)
 
 ## Code Structure
 
