@@ -20,7 +20,7 @@ GCA is a GCC-focused climate decision-support framework that combines a multimod
 ## Table of Contents
 
 - [Installation](#installation)
-- [Datasets](#datasets)
+- [Benchmark](#benchmark)
 - [Code Structure](#code-structure)
 - [Run Experiments](#run-experiments)
 - [Citation](#citation)
@@ -58,11 +58,9 @@ Required for the full stack:
 - `BIRD_LABELS_PATH`
 - `BIOCLIP_BIN`
 
-## Datasets
+## Benchmark
 
-Dataset and project artifacts:
-
-- **Hugging Face:** <https://huggingface.co/umer-sheikh/gca>
+- **Hugging Face:** <[https://huggingface.co/umer-sheikh/gca](https://huggingface.co/datasets/umer-sheikh/gca-bench)>
 
 ## Code Structure
 
